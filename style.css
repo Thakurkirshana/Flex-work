@@ -1,0 +1,43 @@
+.main{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content:center;
+ justify-content: space-evenly;
+     flex-direction:row-reverse;
+    background-color: rgb(14, 13, 13); color: white;
+    padding: 5px; 
+    height: 300px;
+    align-items:flex-start;
+    align-items: center;
+    align-items: end;
+}
+.one{
+    /* order: 1; */
+    /* align-self:flex-start ; */
+    background-color: aquamarine;
+    border-radius: 50px;
+
+
+}
+.two{
+    background-color: blue; color: rgb(198, 35, 35);
+}
+.three{ 
+    /* order: 2; */
+    /* align-self: center; */
+    background-color: goldenrod;
+}
+.four{
+    /* order: -1; */
+    background-color: blueviolet;
+}
+.five{
+    /* order: -1; */
+    /* align-self: center; */
+    background-color: brown;
+}
